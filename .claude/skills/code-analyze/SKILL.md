@@ -134,10 +134,10 @@ SqlToRel
 
 ## Mermaid 生成要求
 
-- 优先使用独立的 `mermaid-ascii` skill 生成 ASCII 字符画
-- Mermaid 内容一旦修改，ASCII 字符画也必须重新生成
-- 不要手写或伪造 ASCII 渲染结果
-- 如果本地无法生成 ASCII，必须明确说明原因，不能假装已生成
+- 优先使用独立的 `mermaid-rendering` skill，默认基于 `beautiful-mermaid` 生成文本图
+- Mermaid 内容一旦修改，文本图与 SVG 都必须重新生成
+- 不要手写或伪造 ASCII / Unicode / SVG 渲染结果
+- 如果本地无法生成，必须明确说明原因，不能假装已生成
 
 ## 回答风格
 
